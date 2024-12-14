@@ -12,17 +12,25 @@ Since this project was developed using a library made by my university, they mus
 
 ## Prerequisites
 Java Development Kit (JDK): Make sure JDK 11 is installed. If not, you can download it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
-External Library: This project depends on a custom library provided by CS2510 Fundies 2 team. You need to import the required JAR files to run the project. The library can be found in the EclipseJars folder.
+External Library: This project is built on a custom library provided by CS2510 Fundies 2 team. You need to import the required JAR files to run the project. The library can be found in the EclipseJars folder.
 
 ### Eclipse
 1. Clone this repository or download the ZIP file and extract it.
-2. Open Eclipse and select File > Open Projects from File System....
+2. Open Eclipse and create a new project.
 3. Browse to the directory where you cloned or extracted the project and import it.
-4. Add the external JARs:
-5. Right-click the project in the Package Explorer.
-6. Select Build Path > Configure Build Path.
-7. Go to the Libraries tab and click Add External JARs....
-8. Browse to the lib folder and select the required JAR files.
-9. Apply the changes and run the project:
-10. Right-click the project and select Run As > Java Application.
+4. Adding the external JARS:
+   1) Right-click on the project and select Properties.
+   2) Click on Java Build Path > Libraries and click Add External JARS
+   3) Browse to the lib folder and select both of the JAR files to add it.
+   4) Click Apply and Close
+5. Navigate to the EclipseWorkspace folder and move the Minesweeper.java file to the src file of the project you created.
+6. Running the file:
+   1) Click the arrow down symbol next to the first green play button in the bar near the top of the screen/
+   2) Click Run Configurations > Java Application in the sidebar.
+   3) Select tester.Main as the Main class.
+   4) In the Arguments tab, for Program arguments, type ExamplesMinesweeper
+   5) Click Apply then Run.
+7. Next time you want to run the project again, click the arrow down button next to the first green play button and choose the config you set up.
+
+
 
