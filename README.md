@@ -1,14 +1,33 @@
 # Minesweeper
-I made Minesweeper using Java for my class!
-
-# Description
 This is my implementation of the game [Minesweeper](https://minesweeper.online/) using entirely Java. 
 This was a pair-programming assignment for my class CS2510. 
 
-In this project, my partner and I made the game from scratch using ArrayLists, Iterators, and Java impworld library. 
+In this project, my partner and I made the game from scratch using ArrayLists, Iterators, and Java impworld library.
+
+# How to play
+- Click a cell to reveal what’s underneath. If it’s a number, it shows how many bombs are nearby.
+- Two-finger click (for my fellow Mac user) or right-click to flag a cell if you think it’s a bomb.
+- Flag all the bomb cells correctly to win - the game will let you know when you’ve won.
+- If you click on a bomb, the game is over.
+Good luck and Have fun! 😚
+
+P.S. you can change the amount of bombs in the game by following [this](#change_amount_of_bomb).
+
+
+# What is so special about your implementation?
+The logic across every Minesweeper is the same: "The board is divided into cells, with mines randomly distributed. To win, you need to open all the cells. The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines. Cells suspected of being mines can be marked with a flag using the right mouse button." - [minesweeper.online](https://minesweeper.online/)
+
+I enhanced the graphics of the game, which entails:
+- Implemented so that the first click the player plays will never be a bomb, but will always be a floodfil instead
+- Forming 3D cells
+- Checking win and lose condition and pop up screen accordingly
+- The flag in the game is the Vietnam flag! 🇻🇳
+  
 
 # How to Set Up
-Since this project was developed using a library made by my university, they must be installed and set up correctly for the game to work. You can choose whichever IDE you want to run it from, but I would recommend using Eclipse since the project was written in Eclipse. (IntelliJ IDEA for Java always but we gotta respect the OG) 🫡
+Since this project was developed using a library made by my university, they must be installed and set up correctly for the game to work. **Please** run the project in Eclipse since the project was written in Eclipse. (IntelliJ IDEA for Java always but we gotta respect the OG and setting up the run config and library dependencies in other IDE is a nightmare...) 
+
+If you do not have Eclipse and don't want to download the IDE, here is a demo of the project:
 
 ## Prerequisites
 Java Development Kit (JDK): Make sure JDK 11 is installed. If not, you can download it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
@@ -32,6 +51,15 @@ External Library: This project is built on a custom library provided by CS2510 F
    4) In the Arguments tab, for Program arguments, type ExamplesMinesweeper
    5) Click Apply then Run.
 7. Next time you want to run the project again, click the arrow down button next to the first green play button and choose the config you set up.
+
+<a id="change_amount_of_bombs"></a>
+# Change Amount of Bombs
+
+
+
+
+
+
 
 
 
