@@ -11,7 +11,7 @@ In this project, my partner and I made the game from scratch using ArrayLists, I
 - If you click on a bomb, the game is over.
 Good luck and Have fun! 😚
 
-P.S. you can change the amount of bombs in the game by following [this](#change_amount_of_bomb).
+P.S. you can change the amount of bombs in the game by following [this](#change-amount-of-bombs).
 
 
 # What is so special about your implementation?
@@ -52,7 +52,7 @@ External Library: This project is built on a custom library provided by CS2510 F
    5) Click Apply then Run.
 7. Next time you want to run the project again, click the arrow down button next to the first green play button and choose the config you set up.
 
-<a id="change_amount_of_bombs"></a>
+<a id="change-amount-of-bombs"></a>
 # Change Amount of Bombs
 
 
