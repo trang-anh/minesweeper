@@ -15,7 +15,7 @@ Good luck and Have fun! 😚💣🎊
 P.S. you can change the amount of mines in the game by following [this](#change-amount-of-bombs).
 
 
-# What is so special about your implementation?
+# What's so special?
 The logic across every Minesweeper is the same: "The board is divided into cells, with mines randomly distributed. To win, you need to open all the cells. The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines. Cells suspected of being mines can be marked with a flag using the right mouse button." - [minesweeper.online](https://minesweeper.online/)
 
 I enhanced the graphics of the game, which entails:
