@@ -12,6 +12,7 @@ Since this project was developed using a library made by my university, they mus
 
 ## Prerequisites
 Java Development Kit (JDK): Make sure JDK 11 is installed. If not, you can download it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
+
 External Library: This project is built on a custom library provided by CS2510 Fundies 2 team. You need to import the required JAR files to run the project. The library can be found in the EclipseJars folder.
 
 ### Eclipse
