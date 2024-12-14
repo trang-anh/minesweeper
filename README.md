@@ -5,13 +5,14 @@ This was a pair-programming assignment for my class CS2510.
 In this project, my partner and I made the game from scratch using ArrayLists, Iterators, and Java impworld library.
 
 # How to play
-- Click a cell to reveal what’s underneath. If it’s a number, it shows how many bombs are nearby.
-- Two-finger click (for my fellow Mac user) or right-click to flag a cell if you think it’s a bomb.
-- Flag all the bomb cells correctly to win - the game will let you know when you’ve won.
+- Click a cell to reveal what’s underneath. If it’s a number, it shows how many mines are nearby.
+- Two-finger click (for my fellow Mac user) or right-click to flag a cell if you think it’s a mine.
+- Flag all the mines cells correctly to win - the game will let you know when you’ve won.
 - If you click on a bomb, the game is over.
-Good luck and Have fun! 😚
 
-P.S. you can change the amount of bombs in the game by following [this](#change-amount-of-bombs).
+Good luck and Have fun! 😚💣🎊
+
+P.S. you can change the amount of mines in the game by following [this](#change-amount-of-bombs).
 
 
 # What is so special about your implementation?
@@ -22,12 +23,17 @@ I enhanced the graphics of the game, which entails:
 - Forming 3D cells
 - Checking win and lose condition and pop up screen accordingly
 - The flag in the game is the Vietnam flag! 🇻🇳
+- You can restart the game when clicked in the box in the middle
   
 
 # How to Set Up
 Since this project was developed using a library made by my university, they must be installed and set up correctly for the game to work. **Please** run the project in Eclipse since the project was written in Eclipse. (IntelliJ IDEA for Java always but we gotta respect the OG and setting up the run config and library dependencies in other IDE is a nightmare...) 
 
 If you do not have Eclipse and don't want to download the IDE, here is a demo of the project:
+
+https://github.com/user-attachments/assets/4a4fe553-2c4c-400c-b5f2-6a9e08fc18c5
+
+
 
 ## Prerequisites
 Java Development Kit (JDK): Make sure JDK 11 is installed. If not, you can download it [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html).
@@ -52,9 +58,16 @@ External Library: This project is built on a custom library provided by CS2510 F
    5) Click Apply then Run.
 7. Next time you want to run the project again, click the arrow down button next to the first green play button and choose the config you set up.
 
-<a id="change-amount-of-bombs"></a>
-# Change Amount of Bombs
+<a id="change-amount-of-mines"></a>
+# Change Amount of Mines
+To change amount of mines in the game, navigate to the class ExamplesMinesweeper and scroll to the last method testBigBang, which should be the last method in the file. 
 
+In this line,
+
+```java
+MinesweeperWorld world = new MinesweeperWorld(row, col, 10);
+```
+The number 10 represents the amount of mines in the game. Currently, it is set to 10. You can switch to whatever amount you like as long as the number of mines must be larger than 0 and smaller than the grid's size.
 
 
 
